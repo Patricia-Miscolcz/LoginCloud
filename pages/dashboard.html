@@ -14,17 +14,13 @@
         <div class="hero-info">
             <p class="tag">Patricia Dev Portal</p>
 
-            <h1 id="nome">Patricia Miscolcz</h1>
+            <h1 id="nome"></h1>
 
-            <h3 id="profissao">Professora Universitária</h3>
+            <h3 id="profissao"></h3>
 
-            <p class="descricao" id="descricao">
-                Matemática • Inteligência Artificial • Ciência de Dados • Desenvolvimento
-            </p>
+            <p class="descricao" id="descricao"></p>
 
-            <p class="frase" id="frase">
-                Transformando conhecimento em tecnologia, dados e aprendizagem.
-            </p>
+            <p class="frase" id="frase"></p>
 
             <button id="logoutBtn">Sair</button>
         </div>
@@ -39,8 +35,11 @@
     <section class="resumo-cards">
 
         <div class="card-info">
+
             <h2>🎓 Formação</h2>
-            <p>USP • UniFECAF • Pós-graduação</p>
+
+            <div id="listaFormacoes"></div>
+
         </div>
 
         <div class="card-info">
@@ -59,6 +58,19 @@
         </div>
 
     </section>
+
+    <section class="disciplinas-impacto">
+        <h2>📚 Impacto das Disciplinas na Formação dos Alunos</h2>
+        <p>
+            Cada disciplina contribui para desenvolver competências técnicas,
+            analíticas e profissionais essenciais para a atuação em tecnologia.
+        </p>
+
+        <div class="impacto-grid" id="listaImpactos"></div>
+    </section>
+
+
+
 
     </main>
     <script src="https://www.gstatic.com/firebasejs/10.12.5/firebase-app-compat.js"></script>
